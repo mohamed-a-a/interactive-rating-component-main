@@ -10,6 +10,8 @@
 
   <title>Frontend Mentor | Interactive rating component</title>
 
+  <link rel="stylesheet" href="index.css">
+
 
 </head>
 
@@ -19,7 +21,8 @@
 
   <div class="container">
     <div class="starIcon">
-      <img src="images/icon-star.svg" alt="">
+
+      <img id="star" src="images/icon-star.svg" alt="">
     </div>
 
     <div class="bigText">
@@ -27,8 +30,9 @@
     </div>
 
     <div class="smallText">
-      Please let us know how we did with your support request. All feedback is appreciated
-      to help us improve our offering!
+      Please let us know how we did with your support <br>
+      request. All feedback is appreciated to help us <br>
+      improve our offering!
     </div>
 
     <div class="ratingNum">
@@ -40,8 +44,35 @@
     </div>
 
     <div class="btn-submit">
-      <button>Submit</button>
+      <button>SUMBIT</button>
     </div>
+
+
+  </div>
+
+  <div class="thankYouCon">
+    <div class="imthank">
+      <img src="images/illustration-thank-you.svg" alt="">
+    </div>
+
+    <div class="ratetextcenter">
+
+      <div class="smalltextrate">
+        You selected &nbsp;<span id="rating"></span>&nbsp;out of 5
+
+      </div>
+    </div>
+
+    <div class="bigtextThank">
+      Thank you!
+    </div>
+
+    <div class="smalltextthank">
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!
+
+    </div>
+
 
 
   </div>
@@ -65,6 +96,7 @@
    Thank you state end -->
 
 
+  <script src="index.js"></script>
 
 </body>
 
