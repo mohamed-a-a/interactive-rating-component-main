@@ -61,36 +61,40 @@ body {
 
 .ratingNum {
 
+
+
     display: flex;
     flex-direction: row;
-
     justify-content: space-around;
     margin-top: 32px;
 
 }
 
-.numb {
+
+
+.btnnumb {
 
     background-color: hsl(213, 20%, 22%);
     color: hsl(217, 12%, 63%);
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    outline: none;
     cursor: pointer;
-
-
-
+    border: none;
 }
 
-.numb:hover {
+.btnnumb:hover {
     color: white;
     background-color: orange;
+
 }
 
-
+.btnnumb:focus {
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+    transition: 2ms;
+}
 
 
 
@@ -100,8 +104,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    cursor: pointer;
 }
+
 
 .btn-submit button:hover {
     background-color: white;
