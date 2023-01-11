@@ -6,13 +6,13 @@ const rating = document.getElementById("rating")
 
 console.log(rating)
 
-ratenumb.forEach((rate) => {
+ratenumb.forEach((Rate) => {
 
-    console.log(rate)
+    console.log(Rate)
 
-    rate.addEventListener("click", () => {
+    Rate.addEventListener("click", () => {
 
-        rating.innerHTML = rate.innerHTML
+        rating.innerHTML = Rate.innerHTML
 
     })
 
